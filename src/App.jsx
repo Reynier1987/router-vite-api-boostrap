@@ -6,7 +6,7 @@ import { Products } from './pages/Products'
 import { NavBar } from './components/NavBar'
 import { Layout } from './components/Layout'
 import { Search } from './pages/search'
-import { NotFound } from './pages/NotFound'
+
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/products/*" element={<Products/>} />
           <Route path='/search/' element={<Search/>}/>
          </Route>
-         <Route path='*' element={<NotFound/>}/>sd
+        
       </Routes>
       
     </>
