@@ -19,7 +19,7 @@ function App() {
           <Route path="/products/*" element={<Products/>} />
           <Route path='/search/' element={<Search/>}/>
          </Route>
-         
+         <Route path='*' element={<NotFound/>}/>sd
       </Routes>
       
     </>
